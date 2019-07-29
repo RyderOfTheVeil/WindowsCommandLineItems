@@ -1,0 +1,6 @@
+setspn -A MSSQLSvc/FQDNNode1:1433\sqlsvcname
+setspn -A MSSQLSvc/FQDNNode2:1433\sqlsvcname
+setspn -A MSSQLSvc/FQDNNode1\sqlsvcname
+setspn -A MSSQLSvc/FQDNNode2\sqlsvcname
+
+Setspn -L domain\sqlsvcname
